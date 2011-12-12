@@ -1,0 +1,17 @@
+{
+  "author": "Maciej Małecki <maciej.malecki@notimplemented.org>",
+  "name": "npmjs.org-www",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=0.4"
+  },
+  "dependencies": {
+    "nconf": "0.5.x",
+    "mkdirp": "0.2.x",
+    "follow": "0.4.x",
+    "colors": "0.6.x",
+    "marked": "git+https://github.com/chjj/marked.git#gfm",
+    "winston": "0.5.x"
+  },
+  "devDependencies": {}
+}
