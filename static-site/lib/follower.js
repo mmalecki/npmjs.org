@@ -28,7 +28,7 @@ follow({ db: registry, include_docs: true }, function (err, change) {
 
   // XXX path traversal
   mkdirp(path.join(out, change.id, utils.vID(doc)), 0755, function () {
-    fs.writeFile(path.join(p, 'index.html'), gen.generate(doc));
+    fs.writeFile(path.join(out, 'index.html'), gen.generate(doc));
   });
 });
 
